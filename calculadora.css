@@ -1,0 +1,35 @@
+body {
+    background: rgb(70, 142, 232);
+    font: normal 15 pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#calculadora {
+    background: black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+}
+
+#res {
+    background: grey;
+    height: 20px;
+    width: 141.3px;
+}
+#botão {
+    background: white;
+    height: 25px;
+    width: 34.5px;
+}

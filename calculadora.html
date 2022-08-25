@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de números</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div id='calculadora'>
+            <form name='form'> 
+                <input id="res" name='res'>
+                <br><input type="button" id="botão" value="(" onclick = "display('(')">
+                <input type="button" id="botão" value=")" onclick = "display(')')">
+                <input type="button" id="botão" value="AC" onclick = "limpar()">
+                <input type="button" id="botão" value="CE" onclick = "apagarcaracter()">
+                <br><input type="button" id="botão" value="7" onclick = "display(7)">   
+                <input type="button" id="botão" value="8" onclick = "display(8)">
+                <input type="button" id="botão" value="9" onclick = "display(9)">
+                <input type="button" id="botão" value="/" onclick = "display('/')">
+                <br><input type="button" id="botão" value="4" onclick = "display(4)">
+                <input type="button" id="botão" value="5" onclick = "display(5)">
+                <input type="button" id="botão" value="6" onclick = "display(6)">
+                <input type="button" id="botão" value="*" onclick = "display('*')">
+                <br><input type="button" id="botão" value="1" onclick = "display(1)">
+                <input type="button" id="botão" value="2" onclick = "display(2)">
+                <input type="button" id="botão" value="3" onclick = "display(3)">
+                <input type="button" id="botão" value="-" onclick = "display('-')">
+                <br><input type="button" id="botão" value="0" onclick = "display(0)">
+                <input type="button" id="botão" value="," onclick = "display(',')">
+                <input type="button" id="botão" value="=" onclick = "resultado()">
+                <input type="button" id="botão" value="+" onclick = "display('+')">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Rafael Amaral</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
